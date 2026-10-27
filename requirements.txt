@@ -1,0 +1,13 @@
+torch
+torchvision
+numpy
+scipy
+scikit-learn
+scikit-image
+opencv-python-headless
+pandas
+matplotlib
+pillow
+gradio
+onnx
+onnxruntime

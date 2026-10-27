@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+# datasets (downloaded / regenerated)
+data/*
+!data/val_idx.npy
+# large regenerable outputs
+results/samples_*.csv
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.pdf
+*.zip

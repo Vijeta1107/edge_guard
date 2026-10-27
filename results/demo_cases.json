@@ -1,0 +1,145 @@
+{
+ "silent_failure": {
+  "blur": {
+   "idx": 463,
+   "truth": "airplane",
+   "clean": {
+    "pred": "airplane",
+    "conf": 0.9907355904579163,
+    "cars": 93.47061157226562,
+    "dec": "ACCEPT",
+    "reason": "none",
+    "mem": false
+   },
+   "degraded": {
+    "pred": "deer",
+    "conf": 0.9143757820129395,
+    "cars": 24.804058074951172,
+    "dec": "DEFER",
+    "reason": "blur",
+    "mem": false
+   },
+   "sliders": {
+    "blur": 0.8
+   }
+  },
+  "night": {
+   "idx": 1488,
+   "truth": "automobile",
+   "clean": {
+    "pred": "automobile",
+    "conf": 0.9966692328453064,
+    "cars": 96.17245483398438,
+    "dec": "ACCEPT",
+    "reason": "none",
+    "mem": false
+   },
+   "degraded": {
+    "pred": "cat",
+    "conf": 0.8279546499252319,
+    "cars": 25.884769439697266,
+    "dec": "DEFER",
+    "reason": "low_light",
+    "mem": false
+   },
+   "sliders": {
+    "dark": 0.85
+   }
+  }
+ },
+ "fog_ramp": {
+  "idx": 4,
+  "truth": "airplane",
+  "ramp": [
+   [
+    0.0,
+    "ACCEPT",
+    96.1,
+    "True"
+   ],
+   [
+    0.1,
+    "ACCEPT",
+    95.5,
+    "True"
+   ],
+   [
+    0.2,
+    "ACCEPT",
+    94.7,
+    "True"
+   ],
+   [
+    0.3,
+    "ACCEPT",
+    93.8,
+    "True"
+   ],
+   [
+    0.4,
+    "ACCEPT",
+    92.9,
+    "True"
+   ],
+   [
+    0.5,
+    "WARN",
+    91.5,
+    "True"
+   ],
+   [
+    0.6,
+    "WARN",
+    86.1,
+    "True"
+   ],
+   [
+    0.7,
+    "WARN",
+    68.6,
+    "True"
+   ],
+   [
+    0.8,
+    "DEFER",
+    35.3,
+    "True"
+   ],
+   [
+    0.9,
+    "DEFER",
+    22.2,
+    "False"
+   ],
+   [
+    1.0,
+    "DEFER",
+    3.3,
+    "True"
+   ]
+  ]
+ },
+ "ood": {
+  "Digits (SVHN-like)": {
+   "sample": 55,
+   "plain": "bird 83%",
+   "cars": 33.778865814208984,
+   "reason": "ood"
+  },
+  "Textures": {
+   "sample": 1,
+   "plain": "bird 76%",
+   "cars": 12.157491683959961,
+   "reason": "ood"
+  }
+ },
+ "memory": {
+  "idx": 3632,
+  "truth": "cat",
+  "blur": 0.35,
+  "plain": "dog 98%",
+  "first": "ACCEPT",
+  "second": "WARN",
+  "unrelated_false_hits": 0.0
+ }
+}
