@@ -1,4 +1,4 @@
-# EdgeGuard — Uncertainty-Aware Edge AI for Reliable Decision Making
+# EdgeGuard - Uncertainty-Aware Edge AI for Reliable Decision Making
 
 Senior Design Project, School of Computer Science and Engineering (AI), KLE Technological University, Hubballi.
 Team: Vijeta Hegde, Rakshita R Talegaon, Tejaswini M V, Manjula Nayak · Guide: Maheshwari Kittur
